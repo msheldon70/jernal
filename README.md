@@ -1,3 +1,15 @@
+Notes
+----------
+need to fiix mongo config
+
+
+
+
+
+
+
+
+------
 [![Next.js](https://assets.zeit.co/image/upload/v1538361091/repositories/next-js/next-js.png)](https://nextjs.org)
 
 <h1 align="center">Next.js ❤️ MongoDB</h1>
