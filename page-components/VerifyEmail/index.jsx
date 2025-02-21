@@ -17,7 +17,7 @@ export const VerifyEmail = ({ valid }) => {
             : 'It looks like you may have clicked on an invalid link. Please close this window and try again.'}
         </Text>
         <Spacer size={4} axis="vertical" />
-        <Link href="/" passHref>
+        <Link href="/" passHref legacyBehavior>
           <ButtonLink variant="ghost" type="success" size="large">
             Go back home
           </ButtonLink>

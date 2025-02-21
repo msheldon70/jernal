@@ -71,7 +71,7 @@ const NewPassword = ({ token }) => {
         </>
       )}
       <Spacer size={0.25} axis="vertical" />
-      <Link href="/login" passHref>
+      <Link href="/login" passHref legacyBehavior>
         <ButtonLink type="success" size="large" variant="ghost">
           Return to login
         </ButtonLink>
@@ -89,7 +89,7 @@ const BadLink = () => {
         window and try again.
       </p>
       <Spacer size={1} />
-      <Link href="/login" passHref>
+      <Link href="/login" passHref legacyBehavior>
         <ButtonLink type="success" size="large" variant="ghost">
           Return to login
         </ButtonLink>

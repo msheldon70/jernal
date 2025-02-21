@@ -14,7 +14,7 @@ const Hero = () => {
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
-            <Link passHref href="/feed">
+            <Link passHref href="/feed" legacyBehavior>
               <ButtonLink className={styles.button}>Explore Feed</ButtonLink>
             </Link>
           </Container>

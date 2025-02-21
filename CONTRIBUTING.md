@@ -19,13 +19,14 @@ However, please avoid using the issue tracker for support questions. You can rec
 ### Bug reports
 
 If you are submitting a :bug: bug report, please:
+
 - Use a clear and descriptive title. Describe the behavior you observed and the expected behavior.
 - Describe the exact steps which reproduce the problem. A minimal reproduction repo is greatly appreciated.
 - Include Node version, OS, or other information that may be helpful in the troubleshooting.
 
 ### Process on submitting a PR
 
-*Generally, all pull requests should have references to an issue.*
+_Generally, all pull requests should have references to an issue._
 
 If you are :sparkles: **adding a new feature** or :zap: **improving an algorithm**, please first [create an issue](../../issues/new) for discussion.
 

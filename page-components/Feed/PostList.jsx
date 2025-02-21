@@ -22,6 +22,7 @@ const PostList = () => {
             key={post._id}
             href={`/user/${post.creator.username}/post/${post._id}`}
             passHref
+            legacyBehavior
           >
             <div className={styles.wrap}>
               <Post className={styles.post} post={post} />

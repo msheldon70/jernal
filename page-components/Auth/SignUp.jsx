@@ -112,7 +112,7 @@ const SignUp = () => {
         </form>
       </div>
       <div className={styles.footer}>
-        <Link href="/login" passHref>
+        <Link href="/login" passHref legacyBehavior>
           <TextLink color="link" variant="highlight">
             Already have an account? Log in
           </TextLink>
