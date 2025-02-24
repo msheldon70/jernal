@@ -1,4 +1,4 @@
-import { Text, TextLink } from '@/components/Text';
+import { Text } from '@/components/Text';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 import styles from './Footer.module.css';
 import Spacer from './Spacer';
