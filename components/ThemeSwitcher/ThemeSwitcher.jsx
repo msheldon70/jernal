@@ -12,7 +12,7 @@ const ThemeSwitcher = () => {
   );
   return (
     <select value={theme} onChange={onChange} className={styles.select}>
-      <option value="system">System</option>
+      <option value="system">System Theme</option>
       <option value="dark">Dark</option>
       <option value="light">Light</option>
     </select>

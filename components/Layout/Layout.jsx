@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Next.js MongoDB App</title>
+        <title>jernal</title>
         <meta
           key="viewport"
           name="viewport"

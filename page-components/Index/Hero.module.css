@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .title {
+  font-family: 'Roboto', sans-serif;
   font-size: 8rem;
   text-align: center;
   font-weight: 800;
@@ -12,29 +15,31 @@
   margin-bottom: -20px;
 }
 
-.nextjs {
+/* .nextjs {
   background: linear-gradient(90deg, #7928ca, #ff0080);
-}
+} */
 
-.mongodb {
+.jernal {
   background: linear-gradient(90deg, rgb(110, 96, 245), rgb(131, 219, 167));
 }
 
-.nextjs,
-.mongodb {
+.jernal {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
   z-index: 1;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.customFont {
+  font-family: 'YourCustomFont', sans-serif;
 }
 
 .buttons {
   max-width: 26rem;
   margin: 0 auto 64px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .button {
@@ -46,7 +51,7 @@
 .subtitle {
   color: var(--secondary);
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
   margin: 8px 0 64px;
 }
