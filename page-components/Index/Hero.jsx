@@ -8,9 +8,9 @@ const Hero = () => {
     <Wrapper>
       <div>
         <h1 className={styles.title}>
-          <span className={styles.nextjs}>Next.js</span>
-          <span className={styles.mongodb}>MongoDB</span>
-          <span>App</span>
+          <span className={styles.nextjs}></span>
+          <span className={styles.mongodb}>Jernal</span>
+          <span></span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
@@ -31,7 +31,7 @@ const Hero = () => {
         </Container>
         <p className={styles.subtitle}>
           A Next.js and MongoDB web application, designed with simplicity for
-          learning and real-world applicability in mind.
+          journaling and sharing.
         </p>
       </div>
     </Wrapper>

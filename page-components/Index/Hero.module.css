@@ -27,11 +27,14 @@
   -webkit-text-fill-color: transparent;
   position: relative;
   z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .buttons {
   max-width: 26rem;
   margin: 0 auto 64px;
+  margin-top: 100px;
 }
 
 .button {
