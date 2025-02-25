@@ -23,11 +23,6 @@ class JournalEntry {
   +deleteEntry()
 }
 
-class Feed {
-  +user: User
-  +displayEntries()
-}
-
 class Auth {
   +login()
   +logout()
@@ -40,7 +35,6 @@ class Database {
 }
 
 User "1" -- "*" JournalEntry : creates
-Feed "1" -- "*" JournalEntry : displays
 Auth "1" -- "*" User : manages
 Database "1" -- "*" User : stores
 Database "1" -- "*" JournalEntry : stores
