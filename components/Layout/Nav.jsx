@@ -110,7 +110,7 @@ const Nav = () => {
           justifyContent="space-between"
         >
           <Link href="/" className={styles.logo}>
-            a Next.js & MongoDB social journaling app
+            a Next.js & MongoDB journaling app
           </Link>
           <Container>
             {user ? (

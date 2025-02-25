@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Wrapper>
         <Text color="accents-7">
-          Jernal - Project Proposal by Michael Sheldon
+          myJournal - Project Proposal by Michael Sheldon
         </Text>
         <Spacer size={1} axis="vertical" />
         <ThemeSwitcher />

@@ -8,8 +8,7 @@ const Hero = () => {
     <Wrapper>
       <div>
         <h1 className={styles.title}>
-          <span className={styles.jernal}>
-            <em>j</em>ernal
+          <span className={styles.myJournal}>myJournal
           </span>
           <span></span>
         </h1>
@@ -32,7 +31,7 @@ const Hero = () => {
         </Container>
         <p className={styles.subtitle}>
           A Next.js and MongoDB web application, designed with simplicity for
-          journaling and sharing.
+          journaling and reflection.
         </p>
       </div>
     </Wrapper>

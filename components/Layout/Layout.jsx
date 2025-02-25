@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>jernal</title>
+        <title>myJournal</title>
         <meta
           key="viewport"
           name="viewport"
